@@ -283,7 +283,7 @@ fun HomeHubDashboardScreen(
                 }
                 Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
                     Text(
-                        text = if (isUr) "السلام علیکم، ${activePerson.name}" else "Assalam-o-Alaikum, ${activePerson.name}",
+                        text = if (isUr) "السلام علیکم، ${activePerson.name}" else "Aoa, ${activePerson.name}",
                         style = if (isUr) urduTextStyle(MaterialTheme.typography.headlineSmall) else MaterialTheme.typography.headlineSmall,
                         color = c.ink,
                         maxLines = 1,
